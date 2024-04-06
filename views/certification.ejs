@@ -5,20 +5,25 @@
     <!-- <link rel="stylesheet" href="homestyle.css"/> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet" />
-    <link rel="shortcut icon" type="image" href="https://yt3.ggpht.com/a/AATXAJzVDlAQCUpOohBqU9K3fYg11thQAmze5kwPzdjxDg=s900-c-k-c0xffffffff-no-rj-mo">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-    <link rel="stylesheet" href="https://cdn.korzh.com/metroui/v4/css/metro-all.min.css">
+    <link rel="shortcut icon" type="image" href="https://yt3.ggpht.com/a/AATXAJzVDlAQCUpOohBqU9K3fYg11thQAmze5kwPzdjxDg=s900-c-k-c0xffffffff-no-rj-mo">
 
+    <link rel="stylesheet" href="https://cdn.korzh.com/metroui/v4/css/metro-all.min.css">
     <title>Khaled</title>
 </head>
 <body>
     <style>
         html{
             height: fit-content;
+          padding: 0%;
+          margin: 0%;
         }
      .container{
-    display: flex;      width: 100%;
-        height: 750px;
+    /* padding: 0%; */
+    /* margin: 0%; */
+        display: flex; 
+         width: 100%;
+        height: 650px;
         /* background-color: black; */
      }.menubar{          /*  menubar start*/
         height: 100%;
@@ -31,7 +36,8 @@
     }.img1{
         width: 100%;
         height: 190px;
-        background-color: black;
+      /* opacity: 0.5; */
+        /* background-color: black; */
      }.fristul{
         /* background-color: brown; */
         width: 100%;
@@ -46,6 +52,8 @@
         margin: 0%;
      }.menueli1{
         display: flex;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
         align-items: center;
         justify-content: center;
         width:100%;
@@ -63,9 +71,7 @@
         border-bottom: 3px rgb(32, 32, 32) solid;
      
      }.menueli1a{
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-      display: flex;
+        display: flex;
         /* background-color: beige; */
        justify-content: center;
        align-items: center;
@@ -127,28 +133,15 @@
         /* background-color: aqua; */
         /* border: 1px aqua solid; */
        background-color: rgb(32, 32, 32);
-       background-image: url("       https://res.cloudinary.com/dfbspvgdo/image/upload/v1703334426/Yelp-camp/xrwebdo5bzi0uxbn8xpj.gif");
-       /* https://res.cloudinary.com/dfbspvgdo/image/upload/v1703337892/Yelp-camp/ikjg1x99yurxgu8qf5qf.gif */
+       /* background-image: url("https://res.cloudinary.com/dfbspvgdo/image/upload/v1703087368/Yelp-camp/yzokwzu0ybignsrldmkg.gif"); */
+     }
+     body{
+        background-image: url("https://res.cloudinary.com/dfbspvgdo/image/upload/v1703334426/Yelp-camp/xrwebdo5bzi0uxbn8xpj.gif");
        background-size: cover;         /* width: 3450vh; */
-
-
-      }.intro{
-        padding: 10px;
-        /* border: 2px aqua solid; */
-        width:55%;
-        height: 95%;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        position: relative;
-        left:5%;
-        z-index: 3;
-        align-items: self-start;
-     }.mainh1{
-      font-family:'Times New Roman', Times, serif;
-
-        color: white;
-        font-size: 90px;
+        height:fit-content ;
+        padding: 0%;
+        margin: 0%;
+        
      }.mainbutton{
         width: 230px;
         height: 60px;
@@ -163,29 +156,18 @@
 
         /* left:70%; */
      }.mainbutton:hover{
-        color: rgb(253, 5, 50);
-        border: 2px rgb(253, 5, 50) solid;
-     }.main-p{
-        /* background-color: aqua; */
-        width: 100%;
-        height: fit-content;
-        font-size: 25px;
-        font-family:'Times New Roman', Times, serif;
-        font-style: italic;
-        color: #a3a0a0e5;
-     }
-     body{
-      background-image: url("https://res.cloudinary.com/dfbspvgdo/image/upload/v1703334426/Yelp-camp/xrwebdo5bzi0uxbn8xpj.gif");
-       background-size: cover;      
-        /* background-color: black; */
-        /* width: fit-content; */
-        height:fit-content ;
-        padding: 0%;
-        margin: 0%;
-     }.mainh1::first-letter{
-         color:rgb(253, 5, 50) ;
+        /* color: rgb(253, 5, 50); */
+        box-shadow:5px 5px rgb(253, 5, 50) ; 
+        text-shadow:5px 5px rgb(253, 5, 50) ; 
+
+        border-top: 2px aquamarine solid;
+        border-right: 2px aquamarine solid;
+        border-left: 2px rgb(253, 5, 50) solid;
+        border-bottom: 2px rgb(253, 5, 50) solid;
+     }#carousel-p{
+        background-color: rgba(0,0,0,0.4);
      }@media ( max-width: 1000px){
-      i{
+        i{
         /* height: 20px; */
        /* background-color: blue; */
        font-size:18px;
@@ -203,9 +185,12 @@
       height:2000px;
       background-image: url("https://res.cloudinary.com/dfbspvgdo/image/upload/v1703334426/Yelp-camp/xrwebdo5bzi0uxbn8xpj.gif");
        background-size: cover;    
+    }.container{
+        height: 650px;
     }
          
     }
+
     </style>
     <div class="container">
     <div class="menubar">
@@ -215,11 +200,10 @@
         <!-- </div> -->
         <ul class="fristul">
             <li class="menueli1"><a href="/" class="menueli1a">About</a></li>
-            <li class="menueli1"><a href="/skills" class="menueli1a">Skills</a></li>
-            <li class="menueli1"><a href="/experiance" class="menueli1a">Experience </a></li>
+            <li class="menueli1"><a href="/skills" class="menueli1a">My Skills</a></li>
+            <li class="menueli1"><a href="/experiance" class="menueli1a">Experiace </a></li>
            <li class="menueli1"><a href="/projects" class="menueli1a"> Projects </a></li>
             <li class="menueli1 lastli"><a href="/contacts" class="menueli1a">Contacts</a></li>
-            <li class="menueli1 lastli"><a href="/certification" class="menueli1a">Certification</a></li>
         
         </ul>
         <ul class="secul">
@@ -231,23 +215,85 @@
         <div></div>
     </div>
     <div class="main">
-        
-        <div class="intro">
-            
-          <h1 class="mainh1">Hi,<br>I'm Khaled,<br>Web devoleper</h1>
-          <p class="main-p">Full Stak Developer / Technical Support Engineer</p> 
-          <a href="mailto:shriefkhaled94@gmail.com"><button class="mainbutton">Contact Me !</button></a>
-        </div>
-    </div>
+       
+          
+       <div data-role="carousel"
+       data-cls-bullet="bullet-big"
+       data-auto-start="true"
+       data-cls-controls="fg-white"
+       data-bullets-position="right"
+       data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+       data-control-prev="<span class='mif-chevron-left fg-cyan'></span>"
+        data-height="650px"
+         class="bg-dark"
+       >
+      
+  
+      <div class="slide p-2 pl-10 pr-10" width="80%"data-cover="https://res.cloudinary.com/dfbspvgdo/image/upload/v1712360390/Screenshot_22_omicai.png">
+          <div class="row flex-align-center h-100">
+              <div class="cell-md-8 " >
+
+                </div>
+              
+              <div class="cell-md-4 text-center">
+                  <div class="img-container drop-shadow">
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
+ <div class="slide p-2 pl-10 pr-10" data-cover="https://res.cloudinary.com/dfbspvgdo/image/upload/v1712361141/UC-d5d9d377-95a2-4a03-9276-aad4116a8ab3_s5buzt.jpg">
+          <div class="row flex-align-center h-100">
+              <div class="cell-md-8 " >
+
+                </div>
+              
+              <div class="cell-md-4 text-center">
+                  <div class="img-container drop-shadow">
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
+
+
+
+
+ 
+
+  </div>
+
 
     </div>
     <script>
+    //   const buttons =  document.querySelectorAll("[data-carousel-button]")
     const li1 = document.querySelectorAll(".menueli1") 
     const button = document.querySelector(".mainbutton")
     const letter = document.querySelector(".mainh1::first-letter")
     const main = document.querySelector(".main")
     const coloring =(color,delay)=>{
- return new Promise ((resolve,reject) =>{
+//  carsol
+// buttons.forEach(b =>{
+//     b.addEventListener("click",()=>{
+//      const offset = b.dataset.carouselButton === "next" ? 1 : -1
+//      const slides = b.closest("[data-carousel]").querySelector("[data-slides]")
+//      const activeSlide = slides.querySelector("[data-active]")
+//      let newIndex =[...slides.children].indexOf(activeSlide)+ offset 
+//     if(newIndex < 0) newIndex = slides.children.length - 1
+//     if(newIndex >= slides.children.length )newIndex = 0 
+    
+//     slides.children[newIndex].dataset.active = true
+//     delete activeSlide.dataset.active
+// })
+// })
+//  carsol
+ 
+ 
+        return new Promise ((resolve,reject) =>{
     setTimeout(()=>{
         button.style.color= color;
         button.style.border=`2px ${color} solid`;
@@ -290,6 +336,14 @@ coloring("rgb(253, 5, 50)",2000);
 coloring("aquamarine",2300);
 })
 
+    
+
+
+
+
+
+
+
 
 // const haa=()=>{
 //     console.log("klaus")
@@ -313,5 +367,7 @@ coloring("aquamarine",2300);
 // glitching2("aquamarine",3000)
 // glitching2("rgb(253, 5, 50)",4000)
     </script>
+        <script src="https://cdn.korzh.com/metroui/v4/js/metro.min.js"></script>
+
 </body>
 </html>

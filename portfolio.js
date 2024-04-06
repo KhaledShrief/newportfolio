@@ -31,6 +31,9 @@ portfolio.get("/experiance",(req,res)=>{
 portfolio.get("/contacts",(req,res)=>{
     res.render("contacts.ejs")
 })
+portfolio.get("/certification",(req,res)=>{
+    res.render("certification.ejs")
+})
 portfolio.listen(port,()=>{
     console.log(`serving on port ${port}`)
 })
